@@ -9,14 +9,12 @@ Gem::Specification.new do |s|
   s.version     = ArtifactPluginTemplate::VERSION
   s.authors     = ["Phelipe Wener"]
   s.email       = ["phwener@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ArtifactPluginTemplate."
-  s.description = "TODO: Description of ArtifactPluginTemplate."
+  s.homepage    = "https://github.com/factbox/artifact_plugin_template" # TODO change
+  s.summary     = "Summary of artifact plugin"
+  s.description = "Description of artifact plugin"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "~> 5.0.7"
-
-  s.add_development_dependency "sqlite3"
 end
