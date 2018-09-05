@@ -1,0 +1,3 @@
+module ArtifactPluginTemplate
+  # Your code goes here...
+end
