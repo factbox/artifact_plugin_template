@@ -1,28 +1,17 @@
 # ArtifactPluginTemplate
-Short description and motivation.
 
-## Usage
-How to use my plugin.
+This is a boilerplate to create new plugins.
+FactBox basically is extended by new Artifact models. To keep one modular ecosystem, it's recomended insert those artifacts via plugin.
 
 ## Installation
-Add this line to your application's Gemfile:
+Add this line to your factbox's Gemfile:
 
 ```ruby
-gem 'artifact_plugin_template'
+gem "PLUGIN_NAME", git: "PLUGIN_GIT_URL"
 ```
 
-And then execute:
+So, in factbox root you can:
+
 ```bash
-$ bundle
+$ rails g install PLUGIN_NAME
 ```
-
-Or install it yourself as:
-```bash
-$ gem install artifact_plugin_template
-```
-
-## Contributing
-Contribution directions go here.
-
-## License
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
